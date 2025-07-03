@@ -1,7 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import {Header} from './blog/header.tsx'
 import { RenderIndustryImmersion } from './blog/content/tours.tsx'
 import { TravelsList } from './blog/content/travels.tsx'
@@ -11,7 +12,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <div className='w-screen h-screen bg-[#E5D2B8]'>
         <Header />
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path='/'>
               <Route index element={<Homepage />}/>
@@ -19,7 +20,7 @@ createRoot(document.getElementById('root')!).render(
               <Route path="tour" element={<RenderIndustryImmersion />}/>
             </Route>
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </div>
   </StrictMode>,
 )
