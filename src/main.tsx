@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')!).render(
         <Header />
         <BrowserRouter>
           <Routes>
-            <Route path='/'>
+            <Route path='/webblog'>
               <Route index element={<Homepage />}/>
               <Route path="travels" element={<TravelsList />}/>
               <Route path="tour" element={<RenderIndustryImmersion />}/>
