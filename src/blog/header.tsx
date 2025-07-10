@@ -1,10 +1,13 @@
+import ccsLogo from '../assets/ccslogo.png'
+import wmsuLogo from '../assets/wmsulogo.png'
+
 export function Header(){
     return(
         <div className="sticky w-screen bg-[#373737]">
             <div className="grid grid-cols-[1fr_1fr] items-center max-w-[1600px] m-auto py-4">
                 <div className="flex items-center">
-                    <img src="/webblog/src/assets/ccslogo.png" className="w-13" alt="" />
-                    <img src="/webblog/src/assets/wmsulogo.png" className="w-13" alt="" />
+                    <img src={ccsLogo} className="w-13" alt="" />
+                    <img src={wmsuLogo} className="w-13" alt="" />
                     <h2 className="text-2xl font-['Roboto'] font-bold text-[#E5D2B8] ml-4">Off Ices</h2>
                 </div>
 
