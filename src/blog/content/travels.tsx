@@ -9,7 +9,7 @@ export function TravelsList(){
                 <div className="grid grid-cols-[1fr_1fr_1fr] gap-10">
                     <div className="">
                         <div className="hover:bg-[#c5b6a1] p-4">
-                            <a href="/webblog/tour">
+                            <a href="/webblog/#/tour">
                                 <img className='shadow-md shadow-[#373737] opacity-90 brightness-80 mb-2' src={industryimmersion} alt="" />
                                 <div>
                                     <span className="font-['Roboto'] font-bold text-[#373737] text-lg">BSCS Batch 2026 Industry Immersion</span><br />
@@ -20,7 +20,7 @@ export function TravelsList(){
                     </div>
                      <div className="">
                         <div className="hover:bg-[#c5b6a1] p-4">
-                            <a className='' href="">
+                            <a className='' href="" onClick={(e)=>{e.preventDefault()}}>
                                 <img className='shadow-md shadow-[#373737] opacity-100 brightness-0 mb-2' src={industryimmersion} alt="" />
 
                                 <div>
