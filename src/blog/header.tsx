@@ -5,7 +5,7 @@ export function Header(){
                 <div className="flex items-center">
                     <img src="/webblog/src/assets/ccslogo.png" className="w-13" alt="" />
                     <img src="/webblog/src/assets/wmsulogo.png" className="w-13" alt="" />
-                    <h2 className="text-2xl font-['Roboto'] font-bold text-[#E5D2B8] ml-4">Off Ice</h2>
+                    <h2 className="text-2xl font-['Roboto'] font-bold text-[#E5D2B8] ml-4">Off Ices</h2>
                 </div>
 
                 <div>
