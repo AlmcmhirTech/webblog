@@ -1,4 +1,22 @@
-// import wel from '../../assets/welcomepic2.jpg'
+import welcomeBg from '../../assets/welcomepic2.jpg'
+import foundever from '../../assets/foundever.jpg'
+import foundeverQuezon from '../../assets/foundeverquezon.jpg'
+import googleYves from '../../assets/yvesgonzalesgoogly.jpg'
+import googlePH from '../../assets/googleph.jpg'
+import beanbonjibod from '../../assets/beabonjibod.png'
+import teleperformance from '../../assets/teleperformance.jpg'
+import jazzykollab from '../../assets/jazzyprettykollab.jpg'
+import miguelkollab from '../../assets/miguelsiribankollab.jpg'
+import ralphkollab from '../../assets/ralphvincentkollab.jpg'
+import kollab from '../../assets/kolab.jpg'
+import sabinaadb from '../../assets/sabinaahmadadb.jpg'
+import mattfarleyadb from '../../assets/mattfarleyadb.jpg'
+import stephkchadb from '../../assets/stephkchadb.jpg'
+import adb from '../../assets/adb.jpg'
+import microsourcingspeaker1 from '../../assets/microsourcingspeaker1.jpg';
+import microsourcing from '../../assets/microsourcing.jpg';
+
+
 
 import { useState } from 'react';
 import { RenderMap } from '../maps';
@@ -13,7 +31,7 @@ export function RenderIndustryImmersion(){
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
         <div className="min-w-full h-[850px] flex overflow-y-hidden">
-          <img className="w-[800px] object-cover" src="/webblog/src/assets/welcomepic2.jpg" alt="" />
+          <img className="w-[800px] object-cover" src={welcomeBg} alt="" />
           <div className="flex w-full bg-[#E5D2B8]">
             <div className="mt-45 m-7">
                 <h2 className="font-bold text-[#373737] text-6xl">
@@ -31,7 +49,7 @@ export function RenderIndustryImmersion(){
                 <div className="flex justify-center bg-white h-full">
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/foundeverquezon.jpg" alt="" />
+                            <img className="w-full" src={foundeverQuezon} alt="" />
                             <span className='m-auto font-bold'>Alman Manzano</span>
                             <span className='mt-4'>A speaker</span>
                         </div>
@@ -42,7 +60,7 @@ export function RenderIndustryImmersion(){
                 <div className='flex'>
                     <h1 className="font-['Roboto'] font-bold text-[#373737] ml-2 p-4">The Foundever Fever</h1>
                 </div>
-                <img className='h-[50%] ml-7' src="/webblog/src/assets/foundever.jpg" alt="" />
+                <img className='h-[50%] ml-7' src={foundever}alt="" />
                 <div className="max-w-[1000px]">
                     <p className="font-['Roboto'] indent-8 leading-relaxed text-justify text-[#373737] text-xl m-6">
                         During our educational tour at Foundever, we attended an insightful presentation that highlighted the company’s role as a global leader in customer experience (CX) and business process outsourcing (BPO). The session delved into how Foundever partners with brands to streamline operations, enhance customer support, and drive efficiency through tailored outsourcing solutions. Speakers shared real-world case studies, demonstrating the impact of their services across industries like healthcare, retail, and technology. We also explored their workplace culture, learning about employee training programs and the technology-driven tools they use to deliver seamless client solutions.</p>
@@ -57,7 +75,7 @@ export function RenderIndustryImmersion(){
                 <div className="flex justify-center">
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/yvesgonzalesgoogly.jpg" alt="" />
+                            <img className="w-full" src={googleYves} alt="" />
                             <span className='m-auto font-bold'>Yves Gonzalez</span>
                         </div>
                     </div>
@@ -67,7 +85,7 @@ export function RenderIndustryImmersion(){
                 <div className='flex'>
                     <h1 className="font-['Roboto'] font-bold text-[#373737] ml-2 p-4">The Googly Googs</h1>
                 </div>
-                <img className='h-[50%] ml-7' src="/webblog/src/assets/googleph.jpg" alt="" />
+                <img className='h-[50%] ml-7' src={googlePH} alt="" />
                 <div className="max-w-[1000px]">
                     <p className="font-['Roboto'] indent-8 leading-relaxed text-justify text-[#373737] text-xl m-6">As a BSCS student from WMSU, walking into Google Philippines' vibrant BGC office felt like stepping into the future—where AI, digital inclusion, and ethical tech aren’t just concepts, but realities shaping our world. Atty. Yves Gonzalez didn’t just explain Google’s innovations like Be Internet Awesome; he showed us how our coding skills could one day impact millions. Seeing the creative workspaces and hearing firsthand about tech’s real-world challenges left me (and my classmates) buzzing with ideas, ready to build solutions that matter.</p>
                 </div>
@@ -81,7 +99,7 @@ export function RenderIndustryImmersion(){
                 <div className="flex justify-center">
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/beabonjibod.png" alt="" />
+                            <img className="w-full" src={beanbonjibod} alt="" />
                             <span className='m-auto font-bold'>Beatrice Bonjibod</span>
                         </div>
                     </div>
@@ -91,7 +109,7 @@ export function RenderIndustryImmersion(){
                 <div className='flex'>
                     <h1 className="font-['Roboto'] font-bold text-[#373737] ml-2 p-4">The Telephone is Ringing</h1>
                 </div>
-                <img className='h-[50%] ml-7' src="/webblog/src/assets/teleperformance.jpg" alt="" />
+                <img className='h-[50%] ml-7' src={teleperformance} alt="" />
                 <div className="max-w-[1000px]">
                     <p className="font-['Roboto'] indent-8 leading-relaxed text-justify text-[#373737] text-xl m-6">Stepping into Teleperformance Philippines’ high-energy BGC office, we BSCS students from WMSU immediately felt the pulse of the global BPO industry – where AI meets human connection. Ms. Beatrice Grace Bonjibod didn’t just describe their tech-driven solutions; she showed us how our coding skills could thrive in an inclusive workplace (with 53% women leaders!). From testing automation tools in their Innovation Hub to practicing mock interviews, we left not just with free merch, but with a new vision: that our technical skills combined with empathy could redefine customer experiences worldwide.</p>
                 </div>
@@ -105,19 +123,19 @@ export function RenderIndustryImmersion(){
                 <div className="flex justify-center">
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/jazzyprettykollab.jpg" alt="" />
+                            <img className="w-full" src={jazzykollab} alt="" />
                             <span className='m-auto font-bold'>Jazmine Claire Calma</span>
                         </div>
                     </div>
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/miguelsiribankollab.jpg" alt="" />
+                            <img className="w-full" src={miguelkollab} alt="" />
                             <span className='m-auto font-bold'>Miguel Siriban</span>
                         </div>
                     </div>
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/ralphvincentkollab.jpg" alt="" />
+                            <img className="w-full" src={ralphkollab} alt="" />
                             <span className='m-auto font-bold'>Ralph Vincent Regalado</span>
                         </div>
                     </div>
@@ -127,7 +145,7 @@ export function RenderIndustryImmersion(){
                 <div className='flex'>
                     <h1 className="font-['Roboto'] font-bold text-[#373737] ml-2 p-4">The Collaboration</h1>
                 </div>
-                <img className='h-[50%] ml-7' src="/webblog/src/assets/kolab.jpg" alt="" />
+                <img className='h-[50%] ml-7' src={kollab} alt="" />
                 <div className="max-w-[1000px]">
                     <p className="font-['Roboto'] indent-8 leading-relaxed text-justify text-[#373737] text-xl m-6">Walking into Kollab’s innovation hub in Mandaluyong, we WMSU BSCS students realized textbooks only teach half the story – here, AI meets real-world impact. Chief Scientist Ralph Vincent Regalado showed us how collaborative tech solves actual problems, while Jazmine Calma made us rethink workplace culture as seriously as code quality. When Senior AI Engineer Toni-Jan Keith Monserrat demonstrated AI transforming agriculture and healthcare, our classroom algorithms suddenly felt powerful. Miguel Siriban’s portfolio workshop gave us immediate tools to showcase our skills, and the candid career stories during Q&A left us energized – we weren’t just visiting a tech company, we were glimpsing our future selves in this industry.</p>
                 </div>
@@ -141,19 +159,19 @@ export function RenderIndustryImmersion(){
                 <div className="flex justify-center">
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/sabinaahmadadb.jpg" alt="" />
+                            <img className="w-full" src={sabinaadb} alt="" />
                             <span className='m-auto font-bold'>Sabina Ahmad</span>
                         </div>
                     </div>
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/mattfarleyadb.jpg" alt="" />
+                            <img className="w-full" src={mattfarleyadb} alt="" />
                             <span className='m-auto font-bold'>Matt Farley</span>
                         </div>
                     </div>
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/stephkchadb.jpg" alt="" />
+                            <img className="w-full" src={stephkchadb} alt="" />
                             <span className='m-auto font-bold'>Stephanie King-chung Hung</span>
                         </div>
                     </div>
@@ -163,7 +181,7 @@ export function RenderIndustryImmersion(){
                 <div className='flex'>
                     <h1 className="font-['Roboto'] font-bold text-[#373737] ml-2 p-4">The Fancy Charity</h1>
                 </div>
-                <img className='h-[50%] ml-7' src="/webblog/src/assets/adb.jpg" alt="" />
+                <img className='h-[50%] ml-7' src={adb} alt="" />
                 <div className="max-w-[1000px]">
                     <p className="font-['Roboto'] indent-8 leading-relaxed text-justify text-[#373737] text-xl m-6">Stepping into ADB’s headquarters, we WMSU computer science students discovered how code meets global impact – where algorithms help fight poverty and APIs connect economies. During fireside chats with ADB’s IT directors, we learned how cloud infrastructure powers regional development, while presenting our "RePay" micro-lending app showed us our classroom projects could actually empower underserved communities. Between touring innovation hubs and learning about ADB’s Future IT Leaders program, we left not just with new LinkedIn connections, but with a transformed perspective: that our programming skills could one day help build bridges – both digital and developmental – across Asia.</p>
                 </div>
@@ -177,7 +195,7 @@ export function RenderIndustryImmersion(){
                 <div className="flex justify-center">
                     <div className='m-8'>
                         <div className='w-[150px] flex flex-col'>
-                            <img className="w-full" src="/webblog/src/assets/microsourcingspeaker1.jpg" alt="" />
+                            <img className="w-full" src={microsourcingspeaker1} alt="" />
                             <span className='m-auto font-bold'>Haidee C. Enriquez</span>
                         </div>
                     </div>
@@ -188,7 +206,7 @@ export function RenderIndustryImmersion(){
                 <div className='flex'>
                     <h1 className="font-['Roboto'] font-bold text-[#373737] ml-2 p-4">The Sourcerer</h1>
                 </div>
-                <img className='h-[50%] ml-7' src="/webblog/src/assets/microsourcing.jpg" alt="" />
+                <img className='h-[50%] ml-7' src={microsourcing} alt="" />
                 <div className="max-w-[1000px]">
                     <p className="font-['Roboto'] indent-8 leading-relaxed text-justify text-[#373737] text-xl m-6">Your code could build global businesses from Eastwood to Australia," MicroSourcing CEO Heidee Enriquez told us WMSU computer science students as we toured their buzzing Quezon City headquarters. Between scanning their employee-friendly workspaces (complete with nap pods!) and learning LinkedIn hacks from their recruiters, we discovered how our programming skills could power international startups without ever leaving PH. That moment when their team showed how Filipino developers manage entire SaaS platforms for foreign clients? That's when we realized our classroom projects were actually training us to become tomorrow's digital workforce - with the world as our office.</p>
                 </div>
