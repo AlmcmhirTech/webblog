@@ -1,3 +1,5 @@
+// import wel from '../../assets/welcomepic2.jpg'
+
 import { useState } from 'react';
 import { RenderMap } from '../maps';
 
