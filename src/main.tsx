@@ -16,8 +16,8 @@ createRoot(document.getElementById('root')!).render(
           <Routes>
             <Route path='/'>
               <Route index element={<Homepage />}/>
-              <Route path="#/travels" element={<TravelsList />}/>
-              <Route path="#/tour" element={<RenderIndustryImmersion />}/>
+              <Route path="travels" element={<TravelsList />}/>
+              <Route path="tour" element={<RenderIndustryImmersion />}/>
             </Route>
           </Routes>
         </HashRouter>
