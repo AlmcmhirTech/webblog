@@ -10,9 +10,9 @@ export function Header(){
 
                 <div>
                     <ul className="flex justify-end">
-                        <li className="px-3 "><a className="hover:bg-[#4b4b4b] font-['Roboto'] text-white text-lg" href="/webblog/tour">Latest Tour</a></li>
+                        <li className="px-3 "><a className="hover:bg-[#4b4b4b] font-['Roboto'] text-white text-lg" href="/webblog/#/tour">Latest Tour</a></li>
                         <li className="px-3"><a className="font-['Roboto'] text-white text-lg" href="/webblog">Home</a></li>
-                        <li className="px-3 "><a className="font-['Roboto'] text-white text-lg" href="/webblog/travels">Travels</a></li>
+                        <li className="px-3 "><a className="font-['Roboto'] text-white text-lg" href="/webblog/#/travels">Travels</a></li>
                     </ul>
                 </div>
             </div>
